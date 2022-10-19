@@ -167,16 +167,16 @@ namespace SuperBit {
     export function RunMotor(num: enServo, pos: enPos, value: number): void {
         if (pos == enPos.stop) {
            
-            let pwm = 350;
+            let pwm = 347;
             setPwm(num, 0, pwm);
         }
         else if(pos == enPos.forward){ //0-90 -> 90 - 0
            
-            let pwm = 350+value*2;
+            let pwm = 347+value*2;
             setPwm(num, 0, pwm);
         }
         else if(pos == enPos.reverse){ //0-90 -> 90 -180
-            let pwm = 350-value*2;
+            let pwm = 347-value*2;
             setPwm(num, 0, pwm);
         }
 
