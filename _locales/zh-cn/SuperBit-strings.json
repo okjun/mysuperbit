@@ -1,6 +1,5 @@
 {
   "SuperBit.RunMotor|block": "运行舵机(360)|编号 %num|方向 %pos|速度 %value",
- 
   "SuperBit.RGB_Program|block": "RGB编程灯",
   "SuperBit.Music|block": "音乐播放|%index",
   "SuperBit.Servo|block": "舵机(180)|编号 %num|角度 %value",
