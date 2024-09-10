@@ -1,4 +1,5 @@
 {
+  "SuperBit.ShowI2c|block": "显示I2C",
   "SuperBit.RunMotor|block": "运行舵机(360)|编号 %num|方向 %pos|速度 %value",
   "SuperBit.RGB_Program|block": "RGB编程灯",
   "SuperBit.Music|block": "音乐播放|%index",
