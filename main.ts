@@ -183,9 +183,9 @@ namespace SuperBit {
     }
 
     //% blockId=SuperBit_ShowI2c block="ShowI2c"
-    //% weight=100
+    //% weight=101
     //% blockGap=10
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=20
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
      export function  ShowI2c (): void {
         
         for (let address = 0; address < 128; address++) {
