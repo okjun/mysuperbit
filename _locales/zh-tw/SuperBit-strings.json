@@ -1,5 +1,4 @@
 {
-  "SuperBit.ShowI2c|block": "显示I2C",
   "SuperBit.RGB_Program|block": "RGB編程燈",
   "SuperBit.Music|block": "音樂播放|%index",
   "SuperBit.Servo|block": "舵機(180)|編號 %num|角度 %value",

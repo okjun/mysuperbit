@@ -181,7 +181,10 @@ namespace SuperBit {
         }
 
     }
+
     //% blockId=SuperBit_ShowI2c block="ShowI2c"
+    //% weight=100
+    //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=20
      export function  ShowI2c (): void {
         
