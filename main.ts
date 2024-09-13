@@ -190,10 +190,10 @@ namespace SuperBit {
         
         for (let address = 0; address < 128; address++) {
             if (address >= 8 && address <= 119) { // 跳过无效地址
-                if (pins.i2cIsDeviceConnected(address)) {
+                //if (pins.i2cIsDeviceConnected(address)) {
                     basic.showString("" + address, 100)
                     basic.pause(3000) // 暂停一段时间以便查看
-                }
+               // }
             }
         }
          
